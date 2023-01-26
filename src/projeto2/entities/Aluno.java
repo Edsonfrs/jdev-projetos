@@ -165,6 +165,26 @@ public class Aluno {
 	
 	}
 	
+	public boolean getAlunoAprovado() {
+		double media = this.getMediaNota();
+		
+		if (media >= 7) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
+	public String getAlunoAprovadoString() {
+		double media = this.getMediaNota();
+		
+		if (media >= 70) {
+			return "APROVADO";
+		} else {
+			return "REPROVADO";
+		}
+	}
+	
 	
 	
 	

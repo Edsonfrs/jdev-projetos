@@ -13,10 +13,10 @@ public class CalculoMedia {
 		aluno1.setNomeMae("Mary Wollstonecraft");
 		aluno1.setNomePai("William Godwin");
 		aluno1.setDataMatricula("01/01/1818");
-		aluno1.setNota1(9);
-		aluno1.setNota2(7);
-		aluno1.setNota3(8.5);
-		aluno1.setNota4(7.8);
+		aluno1.setNota1(2);
+		aluno1.setNota2(5);
+		aluno1.setNota3(4.3);
+		aluno1.setNota4(2.2);
 		
 		System.out.println("BOLETIM ESCOLAR");
 		System.out.println();
@@ -27,6 +27,7 @@ public class CalculoMedia {
 		System.out.println("Nome do Pai: " + aluno1.getNomePai());
 		System.out.println("Data de Matricula: " + aluno1.getDataMatricula());
 		System.out.println("Média: " + aluno1.getMediaNota());
+		System.out.println("Status: " + (aluno1.getAlunoAprovado() ? "Aprovado" : "Reprovado"));
 		
 		
 
